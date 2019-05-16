@@ -32,9 +32,9 @@ body {
 nav {
     float: right;
     text-decoration: none;
-    text-color: black;
+    text-color: red;
     font-family: Sans-serif;
-    text-size: 20px;
+    text-size: 40px;
 }
 nav ul {
     margin: 0;
