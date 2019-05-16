@@ -28,3 +28,8 @@ body{
     width: 98%;
     margin:12px;
 }
+nav{
+    float: right;
+    text-decoration: none;
+    text-color: black;
+}
