@@ -29,7 +29,7 @@ header::after{
 }
 .container {
     background-color: #77878b;
-    border: 2px solid black;
+    border: 2px solid #162d32;
     height: 70px;
     width: 98%;
     margin:12px;
@@ -44,8 +44,28 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    text-decoration: none;
+    height: 55px;
+    padding-top: 15px;
     margin-left: 100px;
+    position: relative;
+}
+nav a {
     font-family: sans-serif;
     font-size: 26px;
+    text-decoration: none;
+    color: #162d32;
+}
+nav a::before {
+    content:'';
+    height: 5px;
+    width: 100%;
+    display: block;
+    background-color: #162d32;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    transition: 250ms;
+}
+nav a:hover::before {
+    opacity: 0.7;
 }
