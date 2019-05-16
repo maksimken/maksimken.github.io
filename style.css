@@ -17,15 +17,12 @@
 #LogoBox{
     width: 180px;
 }
-header{
-    border: 2px solid black;
-    height: 70px; 
-    width: 98%;
-    margin:12px;
-}
-*{
+body{
     background-color: #9eabae;
 }
-#line{
-    border-left: thick solid #ff0000;
+.container {
+    border: 2px solid black;
+    height: 70px;
+    width: 98%;
+    margin:12px;
 }
