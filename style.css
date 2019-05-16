@@ -22,6 +22,11 @@
 body {
     background-color: #9eabae;
 }
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .container {
     background-color: #77878b;
     border: 2px solid black;
