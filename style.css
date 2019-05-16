@@ -31,13 +31,13 @@ body {
 }
 nav {
     float: right;
+    text-decoration: none;
+    text-color: black;
+    font-family: Sans-serif;
+    text-size: 20px;
 }
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
-    text-color: red;
-    font-family: Sans-serif;
-    text-size: 346px;
 }
