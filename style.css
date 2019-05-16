@@ -19,7 +19,7 @@
     width: 180px;
     float:left;
 }
-body { 
+body {
     background-color: #9eabae;
 }
 .container {
@@ -33,6 +33,8 @@ nav {
     float: right;
     text-decoration: none;
     text-color: black;
+    font-family: Sans-serif;
+    text-size: 20px;
 }
 nav ul {
     margin: 0;
