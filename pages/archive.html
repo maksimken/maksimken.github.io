@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        section img {
+            position: relative;
+            float: left;
+            border:1px solid #162d32;
+            width: 300px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+    <script>
+        var i = 1;
+        a = [
+        /img/arcive/1.jpg,
+        /img/arcive/2.jpg,
+        /img/arcive/3.jpg,
+        /img/arcive/4.jpg,
+        /img/arcive/5.jpg,
+        /img/arcive/6.jpg,
+        /img/arcive/7.jpg,
+        /img/arcive/8.jpg,
+        /img/arcive/9.jpg,
+        /img/arcive/10.jpg,
+        ];
+        window.onload = function(){
+            setInterval(fn, 3000);
+        }
+        function fn(){
+            document.getElementById("im").src = a[i];
+            i++;
+            if(i > 2) i = 0;
+        }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+            <header>
+                <div class="container">
+                    <div id="LogoBox">
+                        <img id="MemoLogo" src="/img/MemoLogo.png" alt="MemoLogo">
+                        <h2 id="MemoPedia">emoPedia</h2>
+                    </div>
+
+                    <nav>
+
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><a href="/pages/about">О проекте</a></li>
+                            <li><a href="/pages/contacts">Контактные данные</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </header>
+        <section>
+            <img src="/img/archieve/0.jpg" alt="">
+        </section>
+    </div>
+</body>
+</html>
