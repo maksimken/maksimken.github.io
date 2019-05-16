@@ -31,12 +31,12 @@
         "/img/archive/10.jpg",
         ];
         window.onload = function(){
-            setInterval(fn, 2000);
+            setInterval(fn, 3000);
         }
         function fn(){
             document.getElementById("pic").src = a[i];
             i++;
-            if(i > 11) i = 1;
+            if(i > 10) i = 1;
         }
     </script>
 </head>
@@ -61,7 +61,7 @@
                 </div>
             </header>
         <section>
-            <img id="pic" src="/img/archive/0.jpg" alt="0">
+            <img id="pic" src="/img/archive/0.jpg" alt="">
         </section>
     </div>
 </body>
