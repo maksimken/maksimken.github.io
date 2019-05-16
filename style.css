@@ -1,5 +1,31 @@
-.box{
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
+#MemoLogo{
+    height: 50px;
+    width: 50px;
+    transform: rotate(180deg);
+    margin: 10px;
+    float: left;
+}
+#MemoPedia{
+    position: relative;
+    float: left;
+    font-size: 20px;
+    top:16px;
+    left:-8px;
+    color: black;
+    text-decoration: none;
+}
+#LogoBox{
+    width: 180px;
+}
+header{
+    border: 2px solid black;
+    height: 70px;
+    width: 98%;
+    margin:12px;
+}
+*{
+    background-color: #9eabae;
+}
+#line{
+    border-left: thick solid #ff0000;
 }
