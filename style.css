@@ -20,9 +20,12 @@
 body{
     background-color: #9eabae;
 }
+header{
+    background-color: #77878b;
+}
 .container {
     border: 2px solid black;
     height: 70px;
     width: 98%;
     margin:12px;
-}
+.conta
