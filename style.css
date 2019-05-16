@@ -31,13 +31,15 @@ body {
 }
 nav {
     float: right;
-    text-decoration: none;
-    text-color: red;
-    font-family: Sans-serif;
-    text-size: 40px;
 }
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+nav li {
+    text-decoration: none;
+    text-color: red;
+    font-family: Sans-serif;
+    text-size: 40px;
 }
