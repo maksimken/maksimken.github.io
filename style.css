@@ -16,6 +16,7 @@
 }
 #LogoBox{
     width: 180px;
+    float:left;
 }
 body{
     background-color: #9eabae;
