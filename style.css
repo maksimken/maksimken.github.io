@@ -45,7 +45,5 @@ nav ul {
 nav li {
     display: inline-block;
     text-decoration: none;
-    text-color: red;
-    font-family: Sans-serif;
-    text-size: 40px;
+    margin-left: 100px;
 }
