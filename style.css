@@ -71,3 +71,6 @@ nav a::before {
 nav a:hover::before {
     opacity: 0.7;
 }
+section{
+    color: yellow;
+}
