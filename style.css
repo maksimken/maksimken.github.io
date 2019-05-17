@@ -30,7 +30,7 @@ header::after{
     clear: both;
 }
 .container {
-    background-color: yellow;
+    background-color: #547d7c;
     border: 2px solid #162d32;
     height: 70px;
     width: 98%;
@@ -55,7 +55,7 @@ nav a {
     font-family: sans-serif;
     font-size: 24px;
     text-decoration: none;
-    color: black;
+    color: #162d32;
 }
 nav a::before {
     content:'';
@@ -70,7 +70,4 @@ nav a::before {
 }
 nav a:hover::before {
     opacity: 0.7;
-}
-section{
-    color: yellow;
 }
