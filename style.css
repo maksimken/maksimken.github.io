@@ -20,7 +20,9 @@
     float:left;
 }
 body {
-    background-color: green;
+  background-image: "/img/background.jpg";
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header::after{
     content: '';
