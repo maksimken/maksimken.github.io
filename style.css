@@ -20,9 +20,7 @@
     float:left;
 }
 body {
-  background-image: url("/img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #b8c8d6;
 }
 header::after{
     content: '';
