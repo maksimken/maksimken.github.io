@@ -30,7 +30,8 @@ header::after{
     clear: both;
 }
 .container {
-    background-color: #77878b;
+    background-color: black;
+    opacity: 0.1;
     border: 2px solid #162d32;
     height: 70px;
     width: 98%;
