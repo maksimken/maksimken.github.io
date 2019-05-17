@@ -69,3 +69,6 @@ nav a::before {
 nav a:hover::before {
     opacity: 0.7;
 }
+section {
+    color: #162d32;
+}
